@@ -1,7 +1,7 @@
 {
-    "name": "DonLee-Robot-V2",
-    "description": "A AutoFilter & Manual Filers Donlee Robot V2",
-    "logo": "https://telegra.ph/file/7213699d811662dd57e36.jpg",
+    "name": "𝗭𝗲𝗻𝗱𝗮𝘆𝗮𝗥𝗼𝗕𝗼𝘁",
+    "description": "A AutoFilter & Manual Filers Zendaya RoBot",
+    "logo": "https://telegra.ph/file/5c3d3ffcfd314b80757d9.jpg",
     "stack": "container",
     "keywords": [
         "Auto",
@@ -14,9 +14,9 @@
         "Telegram",
         "Bot"
     ],
-    "website": "https://youtube.com/c/MoTech_YT",
-    "repository": "https://github.com/PR0FESS0R-99/DonLee-Robot-V2",
-    "success_url": "https://youtube.com/c/MoTech_YT",
+    "website": "https://github.com/TEAM-FLUFFY/ZendayaRoBotV2",
+    "repository": "https://github.com/TEAM-FLUFFY/ZendayaRoBotV2",
+    "success_url": "https://github.com/TEAM-FLUFFY/ZendayaRoBotV2",
     "env": {
         "API_ID": {
             "description": "Your APP ID From my.telegram.org or @MT_MytelegramOrg_Bot",
@@ -31,16 +31,16 @@
             "value": ""
         },
         "SESSION_FILE": {
-            "description": "SESSION_FILE From https://youtu.be/WUN_12-dYOM",
+            "description": "SESSION_FILE From AutoFilterBotsession",
             "value": ""
         },
         "DATABASE_URI": {
-            "description": "DATABASE_URI From https://youtu.be/gBLTsH-IXr0",
+            "description": "DATABASE_URI From www.MongoDb.com/",
             "value": ""
         },
         "FORCE_CHANNEL": {
             "description": "FORCE_CHANNEL Your Update Channel (without @)",
-            "value": "MO_TECH_YT"
+            "value": "ADHOLOKAMHDCHANNEL"
         },
         "CUSTOM_CAPTION": {
             "description": "file Custom Caption",
@@ -49,27 +49,27 @@
         },
         "BOT_USERNAME": {
             "description": "BOT_USERNAME Your Bot User Name From Botfather",
-            "value": "DonLee_Robot",
+            "value": "Zendaya_autofilterBot",
             "required": false
         },
         "DEV_USERNAME": {
             "description": "Master (your) Telagarm Useraname from @MT_ID_Bot (Without @)",
-            "value": "Mrk_YT",
+            "value": "TEAM_KERALA",
             "required": false
         },
         "DEV_NAME": {
             "description": "Your Name DEV_NAME",
-            "value": "𝖬𝗎𝗁𝖺𝗆𝗆𝖾𝖽",
+            "value": "ᖴᑌᑕK Oᖴᖴ🇨🇷[𝗢𝗙𝗙𝗟𝗜𝗡𝗘]",
             "required": false
         },
         "DEV_ID1": {
             "description": "Master (your) Telagarm id from @MT_ID_Bot (Without @) (split id)",
-            "value": "2028425293",
+            "value": "5188332572 1099497360",
             "required": false
         },
         "DEV_ID2": {
             "description": "Master (your) Telagarm id from @MT_ID_Bot (Without @)",
-            "value": "2028425293",
+            "value": "5188332572",
             "required": false
         },
         "GROUP_LINK": {
@@ -84,12 +84,12 @@
         },
         "WELCOME_ENABLE_OR_DISABLE": {
             "description": "Do you want a welcome message? Type on if necessary and off if not required",
-            "value": "no",
+            "value": "on",
             "required": false
         },
         "WELCOME_TEXT": {
             "description": "Set Your Custom Welcome Text (User Name = {mention} || Group Name {groupname}",
-            "value": "",
+            "value": "𝙷𝙴𝚈, {u.mention}, 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 {message.chat.title}",
             "required": false
         },
         "SPELLING_MODE_TEXT": {
@@ -98,18 +98,18 @@
             "required": false
         },
         "PHOTOS": {
-            "description": "Bot Pics (Start Help about) random pics @MT_Telegraph_Bot",
+            "description": "Bot Pics (Start Help about) random pics ",
             "value": "",
             "required": false
         },
         "FILE_BUTTONS": {
             "description": "File Buttons dual Or single",
-            "value": "",
+            "value": "dual",
             "required": false
         },
         "FILE_CAPTION": {
             "description": "File Caption bold or mono",
-            "value": "",
+            "value": "<a href="link">text</a>",
             "required": false
         }
     },
