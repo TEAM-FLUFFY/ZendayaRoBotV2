@@ -1,7 +1,2 @@
-<p align="center">
-<img src="https://telegra.ph/file/5c3d3ffcfd314b80757d9.jpg">
-</p>
-
-<p align="center">
-𝗭𝗲𝗻𝗱𝗮𝘆𝗮𝗥𝗼𝗕𝗼𝘁
-</p>
+## Deploy
+<p><a href="https://heroku.com/deploy?template=https://github.com/TEAM-FLUFFY/ZendayaRoBotV2"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
