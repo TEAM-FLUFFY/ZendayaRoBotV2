@@ -1,128 +1,114 @@
 {
-    "name": "𝗭𝗲𝗻𝗱𝗮𝘆𝗮𝗥𝗼𝗕𝗼𝘁",
-    "description": "A AutoFilter & Manual Filers Zendaya RoBot",
+    "name": "𝗭𝗲𝗻𝗱𝗮𝘆𝗮𝗥𝗼𝗕𝗼𝘁𝗩3",
+    "description": "This Bot Will Help You To Store Files In Cloud Storage. You Can Add Files To The Bot By Forward the last file from a public channel to your bot and Press Yes Button.. If The Files Channl Is Private Make the bot admin on the channel and forward the last file to bot. Then Add the bot to you group and send the movie name The Bot Will Give the file in Bot PM..✮✮",
     "logo": "https://telegra.ph/file/5c3d3ffcfd314b80757d9.jpg",
     "stack": "container",
     "keywords": [
-        "Auto",
-        "Filter",
-        "&",
-        "ManualFilter",
-        "Donlee",
-        "Robot",
-        "V2",
-        "Telegram",
-        "Bot"
+      "telegram",
+      "auto-filter",
+      "filter",
+      "best",
+      "indian",
+      "pyrogram",
+      "media",
+      "search",
+      "channel",
+      "index",
+      "inline"
     ],
     "website": "https://github.com/TEAM-FLUFFY/ZendayaRoBotV2",
     "repository": "https://github.com/TEAM-FLUFFY/ZendayaRoBotV2",
-    "success_url": "https://github.com/TEAM-FLUFFY/ZendayaRoBotV2",
     "env": {
-        "API_ID": {
-            "description": "Your APP ID From my.telegram.org or @MT_MytelegramOrg_Bot",
-            "value": ""
-        },
-        "API_HASH": {
-            "description": "Your API Hash From my.telegram.org or @MT_MytelegramOrg_Bot",
-            "value": ""
-        },
         "BOT_TOKEN": {
-            "description": "Your Bot Token From @BotFather",
-            "value": ""
-        },
-        "SESSION_FILE": {
-            "description": "SESSION_FILE From AutoFilterBotsession",
-            "value": ""
-        },
-        "DATABASE_URI": {
-            "description": "DATABASE_URI From www.MongoDb.com/",
-            "value": ""
-        },
-        "FORCE_CHANNEL": {
-            "description": "FORCE_CHANNEL Your Update Channel (without @)",
-            "value": "ADHOLOKAMHDCHANNEL"
-        },
-        "CUSTOM_CAPTION": {
-            "description": "file Custom Caption",
-            "value": "",
-            "required": false
-        },
-        "BOT_USERNAME": {
-            "description": "BOT_USERNAME Your Bot User Name From Botfather",
-            "value": "Zendaya_autofilterBot",
-            "required": false
-        },
-        "DEV_USERNAME": {
-            "description": "Master (your) Telagarm Useraname from @MT_ID_Bot (Without @)",
-            "value": "TEAM_KERALA",
-            "required": false
-        },
-        "DEV_NAME": {
-            "description": "Your Name DEV_NAME",
-            "value": "ᖴᑌᑕK Oᖴᖴ🇨🇷[𝗢𝗙𝗙𝗟𝗜𝗡𝗘]",
-            "required": false
-        },
-        "DEV_ID1": {
-            "description": "Master (your) Telagarm id from @MT_ID_Bot (Without @) (split id)",
-            "value": "5188332572 1099497360",
-            "required": false
-        },
-        "DEV_ID2": {
-            "description": "Master (your) Telagarm id from @MT_ID_Bot (Without @)",
-            "value": "5188332572",
-            "required": false
-        },
-        "GROUP_LINK": {
-            "description": "Your Telagarm Group Link (Without @)",
-            "value": "",
-            "required": false
-        },
-        "FORCE_TEXT": {
-            "description": "Force Text Demo (Your Not Join My Update Channel)",
-            "value": "ഹേയ് {} തായേ കാണുന്ന ചാനലിൽ നിങ്ങൾ ഇല്ല അത് കൊണ്ട് നിങ്ങൾക് സിനിമ കിട്ടില്ല...!    സിനിമ കിട്ടാനായി താഴെ കാണുന്ന 🔔 Join എന്ന ബട്ടനിൽ ക്ലിക്ക് ചെയ്തു ഞങ്ങളുടെ മെയിൻ ചാനലിൽ ജോയിൻ ചെയ്യുക എങ്കിൽ മാത്രമേ നിങ്ങൾക്ക് മൂവി ഈ ബോട്ട് വഴി ലഭിക്കുകയുള്ളു. അതു കഴ്ഞ്ഞു തായേ കാണുന്ന 👉'Try again'👈 എന്നുള്ളതിൽ ക്ലിക്ക് ചെയ്തു Start കൊടുത്താൽ നിങ്ങൾക്ക് മൂവി കിട്ടുന്നതാണ്...😁😁",
-            "required": false
-        },
-        "WELCOME_ENABLE_OR_DISABLE": {
-            "description": "Do you want a welcome message? Type on if necessary and off if not required",
-            "value": "on",
-            "required": false
-        },
-        "WELCOME_TEXT": {
-            "description": "Set Your Custom Welcome Text (User Name = {mention} || Group Name {groupname}",
-            "value": "𝙷𝙴𝚈, {u.mention}, 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 {message.chat.title}",
-            "required": false
-        },
-        "SPELLING_MODE_TEXT": {
-            "description": "Spelling Mode Text (Google Spelling Mode)",
-            "value": "",
-            "required": false
-        },
-        "PHOTOS": {
-            "description": "Bot Pics (Start Help about) random pics ",
-            "value": "",
-            "required": false
-        },
-        "SESSION": {
-            "description": "Enter Your Telegram Logic Session ",
-            "value": "",
+            "description": "Your bot token.",
             "required": true
         },
-        "FILE_BUTTONS": {
-            "description": "File Buttons dual Or single",
-            "value": "dual",
+        "API_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": true
+        },
+        "CHANNELS": {
+            "description": "Username or ID of channel or group. Separate multiple IDs by space.",
             "required": false
         },
-        "FILE_CAPTION": {
-            "description": "File Caption bold or mono",
-            "value": "<a href="link">text</a>",
+        "ADMINS": {
+            "description": "Username or ID of Admin. Separate multiple Admins by space.",
+            "required": true
+        },
+        "PICS": {
+            "description": "Add some telegraph link of pictures .",
+            "value": "https://telegra.ph/file/5c3d3ffcfd314b80757d9.jpg https://telegra.ph/file/8db1fb77d751e762482d8.jpg",
+            "required": false
+        },
+        "LOG_CHANNEL": {
+            "description": "Bot Logs,Give a channel id with -100xxxxxxx",
+            "required": true       
+        },
+        "SUPPORT_CHAT": {
+            "description": "Username of a Support Group / ADMIN. ( Should be username without @ and not ID)",
+            "required": false
+        },
+        "AUTH_USERS": {
+            "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
+            "required": false
+        },
+        "AUTH_CHANNEL": {
+            "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
+            "required": false
+        },   
+        "USE_CAPTION_FILTER": {
+            "description": "Whether bot should use captions to improve search results. (True False)",
+            "required": false
+        },
+        "CUSTOM_FILE_CAPTION": {
+            "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
+            "required": false
+        },
+        "DATABASE_URI": {
+            "description": "mongoDB URI.",
+            "required": true
+        },
+        "DATABASE_NAME": {
+            "description": "Name of the database in mongoDB.",
+            "required": false
+        },
+        "COLLECTION_NAME": {
+            "description": "Name of the collections. Defaults to Telegram_files. If you are using the same database, then use different collection name for each bot",
+            "value": "Zendaya_Files",
+            "required": false
+        },
+        "CACHE_TIME": {
+            "description": "The maximum amount of time in seconds that the result of the inline query may be cached on the server",
+            "value": "300",
+            "required": false
+        },
+        "IMDB": {
+            "description": "Imdb, the view of information when making True/False",
+            "required": false     
+        },
+        "IMDB_TEMPLATE": {
+            "description": "Custom IMDB Template",        
+            "required": false  
+        },
+        "SINGLE_BUTTON": {
+            "description": "choose b/w single or double buttons https://github.com/Aadhi000/Ajax/issues/22",
+            "value": "True",
+            "required": false
+        },
+        "P_TTI_SHOW_OFF": {
+            "description": "Customize Result Buttons to Callback or Url by (True = url / False = callback)",
+            "value": "True",
             "required": false
         }
     },
-    "buildpacks": [
-        {
-            "url": "heroku/python"
-        }
-    ],
+    "addons": [],
+    "buildpacks": [{
+        "url": "heroku/python"
+    }],
     "formation": {
         "worker": {
             "quantity": 1,
