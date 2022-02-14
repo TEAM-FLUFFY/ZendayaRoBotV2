@@ -102,6 +102,11 @@
             "value": "",
             "required": false
         },
+        "SESSION": {
+            "description": "Enter Your Telegram Logic Session ",
+            "value": "",
+            "required": true
+        },
         "FILE_BUTTONS": {
             "description": "File Buttons dual Or single",
             "value": "dual",
